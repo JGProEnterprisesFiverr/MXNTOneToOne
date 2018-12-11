@@ -94,8 +94,8 @@ contract MXNTToken is IERC20 {
     
     // Constructor - Sets the token Owner
     constructor() public {
-        _balances[msg.sender] = 900000000000;
-        emit Transfer(address(this), msg.sender, 900000000000);
+        _balances[msg.sender] = 9000000000000;
+        emit Transfer(address(this), msg.sender, 9000000000000);
     }
     
     // Events
@@ -106,7 +106,7 @@ contract MXNTToken is IERC20 {
     string public constant name = "MXNT ONE TO ONE";
     string public constant symbol = "MXNT";
     uint256 public constant decimals = 1;
-    uint256 public constant supply = 900000000000;
+    uint256 public constant supply = 9000000000000;
     
     // Balances for each account
     mapping(address => uint256) _balances;
